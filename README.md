@@ -1,4 +1,4 @@
-# Project Overview:
+# LogRhythm Chatbot Project Overview:
 This project aims to create an interactive chatbot for LogRhythm SIEM 7.15 documentation, using a multi-step approach involving web scraping, data analysis, text classification, and natural language processing. The project is segmented into different scripts, each handling a specific part of the process.
 
 ## Scripts Overview:
@@ -50,6 +50,28 @@ This project aims to create an interactive chatbot for LogRhythm SIEM 7.15 docum
 4. **Chatbot Improvements:** Integrate a more conversational and context-aware system in the chatbot using technologies like RASA or Google Dialogflow.
 5. **User Feedback Loop:** Implement a mechanism to collect user feedback on chatbot responses to continuously improve its accuracy and relevance.
 6. **UI/UX for Chatbot:** Develop a user-friendly interface for the chatbot to enhance user engagement and accessibility.
+
+## Running the Programs:
+
+To utilize the full functionality of the LogRhythm Chatbot, you need to run the Python scripts in the following order, depending on your specific needs:
+
+1. **Data Extraction with Web Scraping Script:**
+This will execute the script designed to scrape and extract information from LogRhythm SIEM 7.15 documentation. The output will be a CSV file containing the scraped data.
+
+2. **Exploratory Data Analysis:**
+After extracting the data, run the EDA script to analyze and visualize the information. This will help you understand the data patterns and prepare it for the classification process.
+
+3. **Data Cleaning and Preprocessing:**
+Use this script to preprocess the data, which includes cleaning, normalizing, and structuring the data before it can be fed into the machine learning models.
+
+4. **Text Classification:**
+Once the data is preprocessed, you can run the text classification script. It uses Word2Vec for feature extraction and RandomForest for the classification task.
+
+5. **Chatbot Interaction:**
+Finally, to start interacting with the chatbot, run the chatbot script. This program uses the trained models to categorize, analyze, and summarize the textual data from the documentation.
+
+Please ensure all required libraries are installed and that you have the necessary permissions to scrape the website. Additionally, make sure to run these scripts in a suitable environment where Python and all dependencies are properly set up.
+
 
 ## Conclusion:
 This project is a comprehensive application of data science and NLP in the context of a practical, real-world problem. It demonstrates the entire workflow from data collection to the deployment of a functional chatbot, encapsulating various aspects of data science and machine learning. The challenges faced highlight the complexities of working with real-world data and the necessity of employing robust methods to extract, process, and analyze data. Future enhancements can focus on increasing the sophistication and user-friendliness of the solutions, thereby making the chatbot more effective and versatile.
