@@ -41,6 +41,8 @@ This project aims to create an interactive chatbot for LogRhythm SIEM 7.15 docum
 - **Feature Extraction and Machine Learning:** Utilizing Word2Vec and RandomForest, the project demonstrates an effective approach to classify text data. Balancing the dataset with SMOTE is crucial to deal with class imbalance, a common issue in text classification tasks.
 - **Chatbot Development:** The final phase integrates various NLP techniques to create a chatbot. This involves using embeddings for text representation, leveraging both extractive (spaCy) and abstractive (Hugging Face Transformers) summarization techniques to generate concise and relevant responses.
 
+![LogRhythm Chatbot Python Scripts and Key Processes](https://github.com/knapp069/Knapp069-Practicum-1-Project/blob/LogRhythm-Chatbot/Images/Python%20Programs%20Key%20Processes.png)
+
 ## Possible Future Enhancements:
 1. **Improved Scraping Techniques:** Implement advanced web scraping techniques to handle dynamically loaded content or to scrape data from complex web pages.
 2. **Advanced NLP Features:** Incorporate more sophisticated NLP features like named entity recognition, dependency parsing, or sentiment analysis to enrich the analysis.
