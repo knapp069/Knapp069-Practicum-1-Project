@@ -70,6 +70,7 @@ Finally, to start interacting with the chatbot, run the chatbot script. This pro
 Please ensure all required libraries are installed and that you have the necessary permissions to scrape the website. Additionally, make sure to run these scripts in a suitable environment where Python and all dependencies are properly set up.
 
 A sample of the scraped data from the Web Scraping Script for Data Extraction is available in the Data_Files folder named 'section_data.csv'.
+
 A sample of the processed/cleaned data from the Exploratory Data Analysis on Textual Data script is available in the Data_Files folder named 'cleaned_section_data.csv'.
 
 ## Conclusion:
