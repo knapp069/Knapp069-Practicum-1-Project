@@ -69,6 +69,8 @@ Finally, to start interacting with the chatbot, run the chatbot script. This pro
 
 Please ensure all required libraries are installed and that you have the necessary permissions to scrape the website. Additionally, make sure to run these scripts in a suitable environment where Python and all dependencies are properly set up.
 
+A sample of the scraped data from the Web Scraping Script for Data Extraction is available in the Data_Files folder named 'section_data.csv'.
+A sample of the processed/cleaned data from the Exploratory Data Analysis on Textual Data script is available in the Data_Files folder named 'cleaned_section_data.csv'.
 
 ## Conclusion:
 This project is a comprehensive application of data science and NLP in the context of a practical, real-world problem. It demonstrates the entire workflow from data collection to the deployment of a functional chatbot, encapsulating various aspects of data science and machine learning. The challenges faced highlight the complexities of working with real-world data and the necessity of employing robust methods to extract, process, and analyze data. Future enhancements can focus on increasing the sophistication and user-friendliness of the solutions, thereby making the chatbot more effective and versatile.
