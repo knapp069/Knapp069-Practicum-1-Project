@@ -55,19 +55,16 @@ This project aims to create an interactive chatbot for LogRhythm SIEM 7.15 docum
 
 To utilize the full functionality of the LogRhythm Chatbot, you need to run the Python scripts in the following order, depending on your specific needs:
 
-1. **Data Extraction with Web Scraping Script:**
+1. **Web Scraping Script for Data Extraction:**
 This will execute the script designed to scrape and extract information from LogRhythm SIEM 7.15 documentation. The output will be a CSV file containing the scraped data.
 
-2. **Exploratory Data Analysis:**
-After extracting the data, run the EDA script to analyze and visualize the information. This will help you understand the data patterns and prepare it for the classification process.
+2. **Exploratory Data Analysis on Textual Data**
+After extracting the data, run the EDA script to analyze and visualize the information. This will help you understand the data patterns and prepare it for the classification process.  It also includes cleaning, normalizing, and structuring the data before it can be fed into the machine learning models.
 
-3. **Data Cleaning and Preprocessing:**
-Use this script to preprocess the data, which includes cleaning, normalizing, and structuring the data before it can be fed into the machine learning models.
-
-4. **Text Classification:**
+3. **Text Classification and Analysis using Word2Vec and RandomForest:**
 Once the data is preprocessed, you can run the text classification script. It uses Word2Vec for feature extraction and RandomForest for the classification task.
 
-5. **Chatbot Interaction:**
+4. **LogRhythm Chatbot for Document Query and Summarization:**
 Finally, to start interacting with the chatbot, run the chatbot script. This program uses the trained models to categorize, analyze, and summarize the textual data from the documentation.
 
 Please ensure all required libraries are installed and that you have the necessary permissions to scrape the website. Additionally, make sure to run these scripts in a suitable environment where Python and all dependencies are properly set up.
