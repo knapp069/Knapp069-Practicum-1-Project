@@ -11,7 +11,7 @@ This project aims to create an interactive chatbot for LogRhythm SIEM 7.15 docum
      - `langdetect` for detecting the language of the content.
    - **Challenges:** Handling dynamic web content, adhering to website's scraping policies, and ensuring efficient and robust scraping against network issues.
 
-2. **Exploratory Data Analysis on Textual Data:**
+2. **Exploratory Data Analysis on Textual Data with Classification:**
    - **Purpose:** To analyze and visualize the scraped textual data.
    - **Libraries and Techniques:**
      - `pandas`, `matplotlib`, `seaborn` for data analysis and visualization.
@@ -28,7 +28,7 @@ This project aims to create an interactive chatbot for LogRhythm SIEM 7.15 docum
      - `imblearn` for handling class imbalance with SMOTE.
    - **Challenges:** Balancing the classes in the dataset, choosing appropriate features, and tuning the classifier for optimal performance.
 
-4. **LogRhythm Chatbot for Document Query and Summarization:**
+4. **LogRhythm Chatbot:**
    - **Purpose:** To develop a chatbot that can categorize, analyze, and summarize textual data from documentation.
    - **Libraries and Techniques:**
      - `spacy` and `transformers` for NLP tasks and summarization.
@@ -58,20 +58,19 @@ To utilize the full functionality of the LogRhythm Chatbot, you need to run the 
 1. **Web Scraping Script for Data Extraction:**
 This will execute the script designed to scrape and extract information from LogRhythm SIEM 7.15 documentation. The output will be a CSV file containing the scraped data.
 
-2. **Exploratory Data Analysis on Textual Data**
+2. **Exploratory Data Analysis on Textual Data with Classification:**
 After extracting the data, run the EDA script to analyze and visualize the information. This will help you understand the data patterns and prepare it for the classification process.  It also includes cleaning, normalizing, and structuring the data before it can be fed into the machine learning models.
 
 3. **Text Classification and Analysis using Word2Vec and RandomForest:**
 Once the data is preprocessed, you can run the text classification script. It uses Word2Vec for feature extraction and RandomForest for the classification task.
 
-4. **LogRhythm Chatbot for Document Query and Summarization:**
+4. **LogRhythm Chatbot:**
 Finally, to start interacting with the chatbot, run the chatbot script. This program uses the trained models to categorize, analyze, and summarize the textual data from the documentation.
 
 Please ensure all required libraries are installed and that you have the necessary permissions to scrape the website. Additionally, make sure to run these scripts in a suitable environment where Python and all dependencies are properly set up.
 
-A sample of the scraped data from the Web Scraping Script for Data Extraction is available in the Data_Files folder named 'section_data.csv'.
+A sample of the scraped data from the Web Scraping Script for Data Extraction is available in the Data_Files folder named 'section_data.csv'.  **This needs to be placed in the same directory as the Jupyter Notebooks to work.**
 
-A sample of the processed/cleaned data from the Exploratory Data Analysis on Textual Data script is available in the Data_Files folder named 'cleaned_section_data.csv'.
 
 ## Conclusion:
 This project is a comprehensive application of data science and NLP in the context of a practical, real-world problem. It demonstrates the entire workflow from data collection to the deployment of a functional chatbot, encapsulating various aspects of data science and machine learning. The challenges faced highlight the complexities of working with real-world data and the necessity of employing robust methods to extract, process, and analyze data. Future enhancements can focus on increasing the sophistication and user-friendliness of the solutions, thereby making the chatbot more effective and versatile.
