@@ -2,6 +2,5 @@
 !*.csv
 !*.md
 !*.txt
-*.ipynb_checkpoints
 ipynb_checkpoints/
 .gitignore
